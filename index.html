@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>1G連チャレンジ</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      background-color: #111;
+      color: #fff;
+      padding-top: 50px;
+    }
+    button {
+      font-size: 1.5em;
+      padding: 10px 20px;
+      background-color: gold;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .result, .streak {
+      margin-top: 30px;
+      font-size: 2em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>超剥ぎ取りチャンスG</h1>
+  <p>70%の確率で1G連をストック！</p>
+
+  <button onclick="tryChance()">チャレンジする</button>
+
+  <div class="result" id="result"></div>
+  <div class="streak" id="streak">現在の連チャン数: 0</div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
